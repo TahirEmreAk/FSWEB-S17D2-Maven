@@ -4,7 +4,7 @@ public class Developer {
     private int id;
     private String name;
     private Double salary;
-    private static Experience experience;
+    private Experience experience;
 
     public Developer(int id, String name, Double salary, Experience experience) {
         this.id = id;
@@ -37,7 +37,7 @@ public class Developer {
         this.salary = salary;
     }
 
-    public static Experience getExperience() {
+    public Experience getExperience() {
         return experience;
     }
 
